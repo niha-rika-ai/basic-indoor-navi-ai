@@ -19,10 +19,25 @@ This project is a graph-based indoor navigation system that provides step-by-ste
 
 ## ▶️ How to Run
 
+1. Clone the repository:
+
+```bash
+git clone https://github.com/niha-rika-ai/basic-indoor-navi-ai.git
+cd basic-indoor-navi-ai
+```
+
+2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
+
+3. Run the project:
+
+```bash
 python main.py
 ```
+
 
 ## 📌 Example Output
 
