@@ -1,18 +1,36 @@
-<<<<<<< HEAD
 # AI Indoor Navigation System
 
-## Overview
-This project provides indoor navigation using graph-based pathfinding and voice guidance.
+## 🚀 Overview
 
-## Features
-- Shortest path using Dijkstra
-- Voice output guidance
-- Simple and extendable architecture
+This project is a graph-based indoor navigation system that provides step-by-step voice-guided directions inside a building.
 
-## How to Run
+## 🧠 Features
+
+* Shortest path calculation using Dijkstra’s Algorithm
+* Graph-based representation of indoor spaces
+* Voice-guided navigation using text-to-speech
+* Modular and extendable architecture
+
+## 🛠️ Tech Stack
+
+* Python
+* NetworkX
+* pyttsx3
+
+## ▶️ How to Run
+
+```bash
 pip install -r requirements.txt
 python main.py
-=======
-# indoor-navi-ai
-Takes input from users and then output the directions 
->>>>>>> e90f344f3f167d3ae54dff0139c8fe6e6e399277
+```
+
+## 📌 Example Output
+
+Entrance → Hall → Kitchen
+Go straight → Turn right
+
+## 🔮 Future Improvements
+
+* Image-based location detection (AI/CLIP)
+* Real-time camera navigation
+* Mobile app integration
